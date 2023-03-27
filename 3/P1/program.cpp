@@ -19,6 +19,7 @@ int main(int argc, char const *argv[])
 	string rucksack, errors;
 	while (getline(in, rucksack)) {
 		int size = rucksack.size();
+		// can be optimized if we care
 		sort(rucksack.begin(), rucksack.begin() + size/2);
 		sort(rucksack.begin() + size/2, rucksack.begin() + size);
 		set_intersection(rucksack.begin(), rucksack.begin() + size/2,

@@ -24,6 +24,7 @@ int main(int argc, char const *argv[])
 		sort(second.begin(), second.end());
 		sort(third.begin(), third.end());
 		common1 = common2 = "";
+		// can be optimized if we care
 		set_intersection(first.begin(), first.end(),
 						 second.begin(), second.end(),
 						 back_inserter(common1));
