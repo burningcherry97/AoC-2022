@@ -9,7 +9,9 @@
         "list": "cpp",
         "string": "cpp",
         "unordered_map": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "fstream": "cpp",
+        "tuple": "cpp"
     },
     "C_Cpp.intelliSenseEngine": "default",
     "C_Cpp.intelliSenseEngineFallback": "enabled"
