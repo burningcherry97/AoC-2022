@@ -11,7 +11,9 @@
         "unordered_map": "cpp",
         "cstdlib": "cpp",
         "fstream": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "map": "cpp",
+        "cmath": "cpp"
     },
     "C_Cpp.intelliSenseEngine": "default",
     "C_Cpp.intelliSenseEngineFallback": "enabled"
